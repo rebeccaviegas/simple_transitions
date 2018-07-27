@@ -1,0 +1,48 @@
+
+html {
+    /* max-width: 1000px; */
+    margin: auto;
+    max-height: 600px;
+}
+
+.navbar {
+    background-color: lightcyan;
+    color: darkgray;
+}
+
+.navbar ul li {
+    color: darkgray;
+}
+
+body {
+    padding-top: 30px;
+}
+
+.mainContainer {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.aboutContainer {
+    width: 800px;
+    height: 600px;
+    background-color: grey;
+    margin: auto;
+    display: flex;
+}
+
+/* .aboutContainer:hover {
+    transform: scaleY(-0.9);
+    transition: all 1s ease-in-out;
+} */
+
+.workContainer {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: cyan;
+}
